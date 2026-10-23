@@ -1,37 +1,20 @@
-# Pullet Lidar · Windows 下载 / Downloads
+# Pullet Lidar
 
-Pullet Lidar 是用于雷达空间交互的 Windows 软件。本仓库仅提供发布包、校验值和版本说明，产品源码不公开。
+Official Windows x64 binary downloads for Pullet Lidar.
 
-Pullet Lidar is a Windows application for lidar-based spatial interaction. This repository hosts binary releases, checksums and release notes. Product source code is private.
+## Download
 
-## 下载 / Download
+Download **PulletLidar-v1-win-x64.zip** from [the latest release](https://github.com/XMJGame/PulletLidar-Releases/releases/latest), extract the complete archive, and run `PulletLidar.exe`. Keep all accompanying DLLs and `LICENSE.txt`. GitHub's automatic Source code archives are not application installers.
 
-打开 [Releases](https://github.com/XMJGame/PulletLidar-Releases/releases)，下载附件 **PulletLidar-v1-win-x64.zip**。如果还没有 Release，表示首个发布包正在准备。
+本仓库仅提供 Pullet Lidar 软件发行包，不包含产品源码。请从最新发布页下载 **PulletLidar-v1-win-x64.zip**，完整解压后运行 `PulletLidar.exe`，保留 DLL 和 `LICENSE.txt`。Source code 压缩包不是软件安装包。
 
-Open [Releases](https://github.com/XMJGame/PulletLidar-Releases/releases) and download **PulletLidar-v1-win-x64.zip** from the release assets. If no release is listed, the first package is still being prepared.
+## Documentation and support
 
-- 系统 / Platform：Windows x64。
-- 完整解压后运行 `PulletLidar.exe`，保留所有 DLL 和 `licenses` 文件夹。
-- Extract the complete archive before running `PulletLidar.exe`. Keep all DLLs and the `licenses` folder.
-- GitHub 自动生成的 `Source code (zip)` / `(tar.gz)` 不包含软件，请下载上述发布附件。
-- GitHub's automatic source-code archives do not contain the application; use the named release asset.
-- 按 Release 说明核对 SHA256。软件提供累计六小时试用；正式使用需购买并激活。
-- Compare the SHA256 against the release notes. The app offers six hours of cumulative trial use; licensed operation requires purchase and activation.
+- [中文使用指南](https://pulletlab.timecapsulepost.com/docs/pullet-lidar/zh/)
+- [English guide](https://pulletlab.timecapsulepost.com/docs/pullet-lidar/en/)
+- [用户中心 / Account portal](https://pulletlab.timecapsulepost.com/account/)
+- Support: [pulletlab@timecapsulepost.com](mailto:pulletlab@timecapsulepost.com)
 
-## 文档 / Documentation
+Each release provides one software ZIP. See the release description for build details and available SHA256 checksums; keep the license and third-party notices included with the downloaded package. Public downloads do not make the product open source.
 
-- [中文使用文档](https://lidar.timecapsulepost.com/docs/zh/)
-- [English user guide](https://lidar.timecapsulepost.com/docs/en/)
-- [TUIO 1.1 接入 / Integration](https://lidar.timecapsulepost.com/docs/zh/#tuio)
-- [OSC / Unity 接入 / Integration](https://lidar.timecapsulepost.com/docs/zh/#protocol)
-
-## 联系 / Contact
-
-购买咨询与技术支持 / Sales and technical support：
-
-- 主邮箱 / Primary：lidar@timecapsulepost.com
-- 备用邮箱 / Backup：xmjgame@qq.com
-
-公开下载不代表产品开源。第三方组件声明随包提供于 `licenses` 目录。
-
-Public downloads do not make the product open source. Third-party notices are included in the package's `licenses` directory.
+每个发布页仅提供一个软件 ZIP。版本信息及已提供的 SHA256 校验值见发布说明；请保留下载包内的许可和第三方声明文件。公开下载不代表产品开源。
